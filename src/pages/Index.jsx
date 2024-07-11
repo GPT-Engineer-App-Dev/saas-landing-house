@@ -9,7 +9,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Facebook, Twitter, Instagram, LinkedIn } from "lucide-react";
+import { Facebook, Twitter, Instagram, Link } from "lucide-react";
 
 const Index = () => {
   return (
@@ -157,7 +157,7 @@ const Index = () => {
               <Instagram className="h-6 w-6" />
             </a>
             <a href="#" className="text-gray-500 hover:text-gray-700">
-              <LinkedIn className="h-6 w-6" />
+              <Link className="h-6 w-6" />
             </a>
           </div>
           <p className="text-sm text-gray-500">© 2024 SaaS Startup. All rights reserved.</p>
